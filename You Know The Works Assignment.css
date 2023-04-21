@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #f19fa9;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 35px;
+    font-family: roboto;
+}
+
+.part {
+    color: #384163;
+}
+
+
+@media(max-width:576px) {
+    .border-bottom2 {
+        border-bottom: 2px solid #384163;
+    }
+
+    .part4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .icon {
+        border-radius: 40px;
+        background-color: #384163;
+        border: 3px solid #384163;
+        width: 40px;
+        padding: 10px;
+        margin-right: 5px;
+    }
+
+}
+
+
+@media(min-width:768px) {
+    .border-right1 {
+        border-right: 2px solid #384163;
+    }
+
+    .border-bottom1 {
+        border-bottom: 2px solid #384163;
+    }
+
+}
+
+.circle {
+    border-radius: 50px;
+    border: 3px solid #384163;
+    width: 73px;
+    padding: 10px;
+}
+
+.icon {
+    border-radius: 40px;
+    background-color: #384163;
+    border: 3px solid #384163;
+    width: 60px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.text {
+    color: #384163;
+    margin-left: 22px;
+    font-size: 13px;
+}
+
+span {
+    font-weight: 600;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.about {
+    font-family: roboto;
+}
+
+h1 {
+    font-size: 17px;
+    font-weight: 600;
+}
